@@ -1,0 +1,31 @@
+
+TbTextEdit is a text editor that supports multiple file editing through tabs.
+It is built with Java Swing.
+You should use a relatively newer version of Java, like version 7 or 8.
+
+/////////////////////////////////////////
+To build, make sure you have your jdk installed.
+The code is in the tbtextedit directory.
+
+in the directory above that:
+$>make
+
+To run, do either:
+$> make run
+
+-or-
+
+$> java tbtextedit.TbTextEdit
+
+
+The Menu options are:
+New  : start a new text file
+Open : open an existing text file
+Quit : Quit the program
+Help : Brings up a help dialog
+
+Each file opens in a new tab.
+In order to Save or Close a file, right click inside the tab
+corresponding to the file.
+
+
