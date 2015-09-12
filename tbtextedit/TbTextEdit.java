@@ -566,15 +566,9 @@ class TabManager extends AbstractCollection<TabEntry>
 
        public boolean add(TabEntry ob)
        {
-           //System.out.println("TabMgr.add: class name is " + ob.getClass().toString() + "\n");
-           if (ob.getClass().getName().equals("components.TbTextEdit$TabEntry"))
-           {
-              collect.add(ob);
-              numTabs++;
-              return true;
-           }
-           else
-              return false;
+           collect.add(ob);
+           numTabs++;
+           return true;
        }
 
        public Iterator<TabEntry> iterator()
